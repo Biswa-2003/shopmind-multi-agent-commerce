@@ -1,0 +1,26 @@
+{
+  "name": "ai-shopping-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-agent autonomous AI shopping assistant platform",
+  "workspaces": [
+    "apps/*",
+    "backend",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=apps/web",
+    "build:web": "npm run build --workspace=apps/web",
+    "dev:backend": "npm run dev --workspace=backend",
+    "build:backend": "npm run build --workspace=backend"
+  },
+  "keywords": [
+    "ai",
+    "nextjs",
+    "ecommerce",
+    "autonomous-agents",
+    "shopping-assistant"
+  ],
+  "author": "SmartShop AI Team",
+  "license": "MIT"
+}
